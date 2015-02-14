@@ -18,52 +18,55 @@ So lets get started. First create a project directory, mkdir ~/workspace/Arduino
 cd ~/workspace/ArduinoCmake. Let's get the toolchain by going a git clone git@github.com:queezythegreat/arduino-cmake.git
 This will get the CmakeFiles needed to do arduino related tasks like uploading it to the Arduino.
 Next we create a source file: nano main.cpp in this file we put a simple demo:
-\#include <HardwareSerial.h>
-\#include <Arduino.h>
-int incomingByte = 0;    // for incoming serial data
+	
+	\#include <HardwareSerial.h>
+	
+	\#include <Arduino.h>
+	
+	int incomingByte = 0;    // for incoming serial data
 
-void setup() {
+	void setup() {
 
-    Serial.begin(9600);    // opens serial port, sets data rate to 9600 bps
+	    Serial.begin(9600);    // opens serial port, sets data rate to 9600 bps
 
-}
+	}
 
-void loop() {
-    // send data only when you receive data:
+	void loop() {
+	    // send data only when you receive data:
 
-    if (Serial.available() > 0) {
+	    if (Serial.available() > 0) {
 
-        // read the incoming byte:
+        	// read the incoming byte:
 
-        incomingByte = Serial.read();
+	        incomingByte = Serial.read();
 
-        // say what you got:
+        	// say what you got:
 
-        Serial.print((char)incomingByte);
+	        Serial.print((char)incomingByte);
 
-    }
+	    	}
 
-}
-`
+	}
+
 This demo will do a serial echo so we can send data to the Arduino which it will echo back.
 Next we create the CmakeLists.txt: nano CMakeLists.txt and in this file put the following:
-cmake_minimum_required(VERSION 2.8.4)
+	cmake_minimum_required(VERSION 2.8.4)
 
-set(CMAKE_TOOLCHAIN_FILE arduino-cmake/cmake/ArduinoToolchain.cmake)
+	set(CMAKE_TOOLCHAIN_FILE arduino-cmake/cmake/ArduinoToolchain.cmake)
 
-project(projectName)
+	project(projectName)
 
-set(ARDUINO_DEFAULT_BOARD mega)
+	set(ARDUINO_DEFAULT_BOARD mega)
 
-set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0)
+	set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0)
 
-link_directories(arduino-libraries)
+	link_directories(arduino-libraries)
 
-generate_arduino_firmware(projectName
+	generate_arduino_firmware(projectName
 
-	SRCS main.cpp
+		SRCS main.cpp
 
-)
+	)
 
 I will highlight the important lines:
 The set(CMAKE_TOOLCHAIN_FILE line tells Cmake where the Arduino toolchain is located. This line must be before the project line.
