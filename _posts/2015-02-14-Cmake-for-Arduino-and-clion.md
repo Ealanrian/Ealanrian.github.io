@@ -18,7 +18,7 @@ So lets get started. First create a project directory, mkdir ~/workspace/Arduino
 cd ~/workspace/ArduinoCmake. Let's get the toolchain by going a git clone git@github.com:queezythegreat/arduino-cmake.git
 This will get the CmakeFiles needed to do arduino related tasks like uploading it to the Arduino.
 Next we create a source file: nano main.cpp in this file we put a simple demo:
-#include <HardwareSerial.h>
+`#include <HardwareSerial.h>
 #include <Arduino.h>
 int incomingByte = 0;    // for incoming serial data
 
@@ -44,7 +44,7 @@ void loop() {
     }
 
 }
-
+`
 This demo will do a serial echo so we can send data to the Arduino which it will echo back.
 Next we create the CmakeLists.txt: nano CMakeLists.txt and in this file put the following:
 cmake_minimum_required(VERSION 2.8.4)
