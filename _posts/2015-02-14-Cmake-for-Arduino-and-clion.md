@@ -23,18 +23,24 @@ Next we create a source file: nano main.cpp in this file we put a simple demo:
 int incomingByte = 0;    // for incoming serial data
 
 void setup() {
+
     Serial.begin(9600);    // opens serial port, sets data rate to 9600 bps
+
 }
 
 void loop() {
     // send data only when you receive data:
+
     if (Serial.available() > 0) {
 
         // read the incoming byte:
+
         incomingByte = Serial.read();
 
         // say what you got:
+
         Serial.print((char)incomingByte);
+
     }
 
 }
@@ -48,13 +54,15 @@ set(CMAKE_TOOLCHAIN_FILE arduino-cmake/cmake/ArduinoToolchain.cmake)
 project(projectName)
 
 set(ARDUINO_DEFAULT_BOARD mega)
+
 set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0)
-include_directories()
 
 link_directories(arduino-libraries)
 
 generate_arduino_firmware(projectName
+
 	SRCS main.cpp
+
 )
 
 I will highlight the important lines:
