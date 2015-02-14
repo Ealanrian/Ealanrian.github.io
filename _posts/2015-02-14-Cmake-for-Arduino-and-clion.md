@@ -19,9 +19,9 @@ cd ~/workspace/ArduinoCmake. Let's get the toolchain by going a git clone git@gi
 This will get the CmakeFiles needed to do arduino related tasks like uploading it to the Arduino.
 Next we create a source file: nano main.cpp in this file we put a simple demo:
 	
-	\#include <HardwareSerial.h>
+	#include <HardwareSerial.h>
 	
-	\#include <Arduino.h>
+	#include <Arduino.h>
 	
 	int incomingByte = 0;    // for incoming serial data
 
