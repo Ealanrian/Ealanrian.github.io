@@ -1,3 +1,12 @@
+--
+layout: post
+title: Cmake for Arduino and Clion
+date: 2015-02-14 16:30
+author: Erik Jansman
+comments: true
+categories: [Random]
+---
+
 Cmake for Arduino and Clion
 ===========================
 

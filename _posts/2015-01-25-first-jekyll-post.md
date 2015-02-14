@@ -1,3 +1,12 @@
+-
+layout: post
+title: This is the first post using Jekyll and github pages.
+date: 2015-01-25
+author: Erik Jansman
+comments: true
+categories: [Random]
+---
+
 This is the first post using Jekyll and github pages.
 ----------------------
 
