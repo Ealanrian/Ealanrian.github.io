@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/ealanrian
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jansman.eu
+  * I am ealanrian (https://keybase.io/ealanrian) on keybase.
+  * I have a public key with fingerprint 6AC5 7C17 3596 3638 E371  8D1A 4F0D D760 D7FE 407C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "6ac57c1735963638e3718d1a4f0dd760d7fe407c",
+            "host": "keybase.io",
+            "key_id": "4F0DD760D7FE407C",
+            "uid": "672d56937c823b9a0cd56fec62710b19",
+            "username": "ealanrian"
+        },
+        "merkle_root": {
+            "ctime": 1433677641,
+            "hash": "74e22c506e170a7f5cc2d25e3f3e89e925f94a57b6e212032e55e7207340ba04bc3f1da75925eba462101618a25b3bc312739c1c91aae8af2c409c9d0151655e",
+            "seqno": 242173
+        },
+        "service": {
+            "hostname": "jansman.eu",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1433677763,
+    "expire_in": 157680000,
+    "prev": "4973d21f5611a7a0e8273aca1b1f735526e226b299d0addda7bc87eeb7514443",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkntQVFUcx5cFRLMNxkInpYAbW0mw3nNf515QQTDIUWR6iAU167n3noUr617c
+XV7DoxxyRnwA8QjCtBIFTS0sUgI1onRoHCFJBqkch8lHUmI0WGSBnWs05fnrnPP7
+/L7n9/39TpXF12T2SbUMrhucii/2OXNdNq3xLvqiiJJ1tZCKKaIUp4ZdXmPnQhsw
+FUNl40IZebBN08Ncuopt6z1h00wUlYfdHk13EYq2QZtElUQZuJHs0FyZ2J3j1gwt
+SkAKDxUAWV4SWIEVMQuBqALEOWhVhQKtQgfmaKgQySzd473nVequpl1TyS2XRC9f
+TvjlMOlpwieSWO7dgAAZlRckFioiw8oSohVydGBFYCCgZSAZoAe7py1h5EQut4Zc
+RsEbsDvbie1uXb/rWvFqBgM4lhUgFDhASkKeLJIFOcwwCk8LGEAaQQevKIzK8Jh1
+sFiUsMTwDolDPJQFzACGZhnM8xgyNGQ5WkY0JyusA6gI8oTEMuIEBtBAACJieJkl
+QcBAVlKAIgGEsIgcjMLRkiKpNOCBQKSIBw/e6NKpGIZjSC9LjLM7T1OwUbfRt2l7
+65HLswG5bDiXpOS4da+u6E5yn+X15sQYlr2FOQaXj2W759A/EnZZc6lkZv8fKiDo
+ve2AAhtF4YIczY3tmkHwUBBpsox3cJ4xIQmyKgMcvAAAgojGInGFFARk4CDj5xnS
+HEaQGYn4QqpK2iErIsRYhjzgOI79zyRH6kSZRNKjZbqQN9eNqZJyc4ifycdsmuFv
+Nn6t6b5ZQf9+5d6IwDuJa4e85/eeOHaqtrF27OIPqRfWlQbMTa7VVrQNHby6Krgf
+1MldJulIfUr6xIK4TusDlZvvNG5a9tS5svy9Gc1zLkgBaalRjXX3V4eXjwa9PYdu
+vzE+f/FgZFfJicrYWaJ5pNw3+uXXi6tr+npfWxZ+s/rG8cDDgR1XF3fvpM9OWRKC
+J8Qfvxqzd+3+NLeqYDzn1y8zQg/0JfpNtV/J2LN07N2O2pa+mVuPtvV3+9U8uGN1
+aO/ChjfjFo3sr6BTazpnA91pKY42f7K0QfIpaLYV+HVu2hwCyvr1AL6144Nt5c82
+Of9aU7fKZ8tLly9V/Z5/aP9szlqRnxf66sEjCS+21fOTqyaPjoLsP5od2s6QgSnf
+V4pqS7F/bP222LPWsYezxMpbO849v7G7ounQsfe3bA/s/s08sGtJ5JxHZ5eYhpXe
+ijzT2pp5p9c88Zm+4nLSdp+g8D01aXbsHi33q19kre85mbn7529ixMM9J4vGUw6k
+7Vv5SLCQZLmUYvolYPfktdtPHq4uGF8Z39IVN7Lv+nzbM2FS9TsZEbfPl10bL7WO
+JhTUDkXERz7edMIek17JH//6+8zEtnXp782cpDqzTw6ntCZ/bDlddVp/LiFkSXKv
+/5WFc0P/fOOxrAVDL4RYBtroxJvpb11s+enzh25Zg+LKrN9dnhERd+ZUeyzvjP4o
+rf7DXa2rG4b7r09c6vk2Zd7f
+=oRUR
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ealanrian
+
+==================================================================
+
